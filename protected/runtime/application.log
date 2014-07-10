@@ -1,0 +1,61 @@
+2014/07/06 05:55:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /Applications/MAMP/htdocs/web/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/web/dishlocate/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=gii
+---
+2014/07/06 05:55:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /Applications/MAMP/htdocs/web/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/web/dishlocate/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/?r=gii
+---
+2014/07/06 06:02:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dishlocate.dishVotes' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `dishVotes`.
+in /Applications/MAMP/htdocs/web/dishlocate/index.php (13)
+2014/07/06 06:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "metros".' in /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('metros')
+#1 /Applications/MAMP/htdocs/web/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/web/dishlocate/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/metros
+---
+2014/07/06 06:11:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "metros/index".' in /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('metros/index')
+#1 /Applications/MAMP/htdocs/web/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/web/dishlocate/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/metros/index
+---
+2014/07/06 13:58:01 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.showScript" is not defined.' in /Applications/MAMP/htdocs/web/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/MAMP/htdocs/web/yii/framework/YiiBase.php(220): CComponent->__set('showScript', false)
+#1 /Applications/MAMP/htdocs/web/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /Applications/MAMP/htdocs/web/yii/framework/base/CApplication.php(511): CModule->getComponent('urlManager')
+#3 /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /Applications/MAMP/htdocs/web/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /Applications/MAMP/htdocs/web/dishlocate/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/
+---
+2014/07/07 01:23:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('login')
+#1 /Applications/MAMP/htdocs/web/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/web/dishlocate/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/login
+---
+2014/07/08 02:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "metros/create".' in /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/web/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('metros/create')
+#1 /Applications/MAMP/htdocs/web/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/web/dishlocate/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/metros/create
+---
